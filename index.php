@@ -1,6 +1,8 @@
 <?php
 
-$server_key = "SB-Mid-server-tvCDG0HA5-winyPvZ0TeefPb";
+$server_key = $is_production ?
+    "SB-Mid-server-tvCDG0HA5-winyPvZ0TeefPb" :
+    "Mid-server-BZmFyJi8o1EYelKQuSWaxZsH";
 
 $is_production = false;
 
